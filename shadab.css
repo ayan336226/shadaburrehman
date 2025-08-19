@@ -1124,3 +1124,27 @@ padding: 17px;
 .dot.active {
   background-color: #fff;
 }
+/* Social Icons General Style */
+.social-icons-inline {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.social-icons-inline a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* ✅ Mobile Fix */
+@media (max-width: 600px) {
+  .social-icons-inline {
+    margin-bottom: 50px;  /* mobile me zyada gap de do */
+    font-size: 26px;      /* icons thode bade dikhenge */
+  }
+
+  #about h2 {
+    margin-top: 20px;     /* About heading neeche push ho jayegi */
+  }
+}
